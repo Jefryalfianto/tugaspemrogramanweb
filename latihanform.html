@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>belajar form</title>
+	<script type="text/javascript">
+		function panggil(){
+			alert ("pesanan sedang di proses");
+		}
+	</script>
+</head>
+<body>
+	<form action="" method="GET">
+		<input type="number" name="">
+		<input type="tel" name="">
+		<input type="week" name="">
+		<input type="email" name="">
+		<input type="password" name="">
+		<input type="range" name="">
+		<input type="time" name="">
+		<input type="month" name="">
+		<input type="search" name="">
+		<input type="file" name="">
+		<input type="text" name="">
+		<input type="submit" name="">
+		<br>
+		jenis kelamin
+		<input type="radio" name="jk" value="l">laki-laki
+		<input type="radio" name="jk" value="p">perempuan
+		<br>
+		<input type="checkbox" name="pesanan" value="karedok">karedok
+		<input type="checkbox" name="pesanan" value="seblak">seblak
+		<input type="checkbox" name="pesanan" value="pempek">pempek
+		<br>
+		agama
+		<select>
+			<option>-pilih dulu-</option>
+			<option>islam</option>
+			<option>kristen</option>
+			<option>hindu</option>
+			<option>budha</option>
+		</select>
+		<br>
+		<fieldset>
+			<legend>login form</legend>
+			<label for="username"> Username</label>
+			<input type="text" name="username" id="username">
+			<br>
+			<button type="reset">reset</button>
+			<button type="submit">kirim</button>
+			<button onclick="panggil()" type="button">tombol</button>
+		</fieldset>
+	</form>
+
+</body>
+</html>
